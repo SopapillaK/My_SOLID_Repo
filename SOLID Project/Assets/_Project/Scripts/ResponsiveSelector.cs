@@ -18,7 +18,7 @@ public class ResponsiveSelector : MonoBehaviour, ISelector
 
             var lookPercentage = Vector3.Dot(vector1.normalized, vector2.normalized);
 
-            selectables[i].LookPercentage = lookPercentage;
+            //selectables[i].LookPercentage = lookPercentage;
 
             if (lookPercentage > threshold && lookPercentage > closest)
             {
